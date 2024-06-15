@@ -1,0 +1,78 @@
+.comments {
+  border-top: 1px solid gray;
+  max-height: 320px;
+  overflow: scroll;
+}
+
+.comment {
+  display: flex;
+  align-items: left;
+  min-height: 50px;
+  padding: 7px 10px;
+  border-top: 1px solid rgb(190, 190, 190);
+  align-items: center;
+  position: relative;
+}
+
+.comment:first-child{
+  border-Top: 0px;
+}
+
+.commentMain {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.commentWriter {
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-bottom: 2px;
+}
+
+.commentContent {
+  width: 100%;
+  text-align: justify;
+}
+
+.commentReplyBtn {
+  font-size: 0.7rem;
+  color: rgb(87, 86, 86);
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.commentDeleteBtn{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.inputComment {
+  display: flex;
+  background-color: #98ddca;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.inputReplyComment{
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.inputCommentBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.commentDate {
+  text-align: right;
+  color: gray;
+  font-size: 0.7rem;
+}

@@ -1,0 +1,105 @@
+
+.deletePostBtn {
+  position: absolute;
+  cursor: pointer;
+  z-index: 5;
+  right: 5px;
+  top:5px;
+}
+
+.title {
+  font-style: bold;
+  font-size: 1.1rem;
+}
+
+.writer {
+  margin-bottom: 5px;
+  color: gray;
+  font-size: 0.9rem;
+  cursor: pointer;
+  flex-basis: auto;
+}
+
+.icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.optionIcon {
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.userInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo span{
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "NEXON Lv2 Gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 768px) { 
+
+  .total{
+    width: 90%;
+  }
+
+  .post{
+    flex-direction: column;
+  }
+
+  .photo{
+    width: 100%;
+  }
+
+  .content{
+    width: 100%;
+  }
+  
+  .contentHeader{
+    padding: 5px 0px;
+  }
+
+  .contentBody{
+    font-size: 0.8rem;
+  }
+  
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .postContent {
+    font-size: 0.8rem;
+    max-height: 200px;
+  }
+
+  .writer {
+    font-size: 0.8rem;
+  }
+
+  .postDate {
+    font-size: 0.8rem;
+  }
+
+  .optionIcon{
+    font-size: 1.5rem;
+  }
+
+}
